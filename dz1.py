@@ -11,7 +11,6 @@ class TestOstatok2(unittest.TestCase):
     def test_divide_by_zero(self):
         self.assertRaises(ValueError, ostatok, 6, 0)
 
-print(ostatok(6, 5))
 
 
 if __name__ == '__main__':
